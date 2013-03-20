@@ -3,13 +3,7 @@
  # This js has two functions : Create Table, Post contents from the created table
  # Create function takes input from you and creates Rows and Columns accordingly
  # Post Function collects input from the created table and prints it onscreen
- # No Style has been added except for Padding of one p-class
- 
- 
- 
- 
- 
- 
+ # No Style has been added except for Padding of one p-class .
  */
 var rows, cells, total;
 
@@ -38,7 +32,7 @@ function post(){
 total = rows*cells;
 for(z=1;z<=total;z++){
 document.getElementById("para" + z).innerHTML=document.getElementById("input" + z).value;
-document.getElementById("para" + z).style.padding="10px";
+x = document.getElementById("para" + z).style.padding="10px";
 }
 }
 
